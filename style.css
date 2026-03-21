@@ -32,7 +32,9 @@ header nav img{
   width: 30px;
   
 }
-
+main{
+  padding: 1rem;
+}
 .home {
     
     padding: 60px 0 40px;
@@ -191,6 +193,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  
+    
 }
 
 
@@ -316,11 +320,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   margin-top: 10px;
 }
-
-
-
-
-
 
 
 
@@ -543,9 +542,26 @@ h1, h2, h3, h4, h5, h6 {
   width: 300px;
 }
 
-.skill-item {
-  margin-bottom: 20px;
+.skill-item:nth-child(1) {
+  position: absolute;
+  top: 95px;
+  left: -20px;
+  
 }
+
+.skill-item:nth-child(2) {
+  position: absolute;
+  bottom: -400px;
+  right: -45px;
+
+}
+.skill-item:nth-child(3) {
+  position: absolute;
+  bottom: -400px;
+  left: -5px;
+
+}
+
 
 .skill-info {
   display: flex;
@@ -576,9 +592,118 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: width 1s ease-in-out; 
 }
-.about-container-skills{
+.about-container-skills {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 2%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container-skills-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  flex: 2;
   
+}
+
+.container-description-second {
+  flex: 1;
+  min-width: 300px;
+ 
+}
+.container-description-second h3{
+  font-size: 2rem;
+}
+.container-description-second p{
+  font-size: 1rem;
+}
+.badge-listAbout{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.skill-badge:nth-child(1){
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 0.5rem 2rem;
+  justify-self: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.skill-badge:nth-child(2) {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 0.5rem 2rem;
+  justify-self: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.skill-badge:nth-child(3) {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 0.5rem 1rem;
+  justify-self: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.skill-badge:nth-child(4) {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 0.5rem 2.3rem;
+  justify-self: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+
+.skill-cardAbout {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+}
+
+
+
+.progress-bg {
+  background: #eef2f7;
+  height: 8px;
+  border-radius: 10px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #0056b3;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skill-infoAbout {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 1.2rem;
 }
 
 

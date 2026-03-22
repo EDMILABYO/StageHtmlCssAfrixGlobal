@@ -706,4 +706,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.2rem;
 }
 
+.container-description-resume{
+  margin: 20px 130px;
+  display: flex;
 
+}
+.rows-services{
+  margin: 20px 130px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

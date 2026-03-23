@@ -711,8 +711,36 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 
 }
+.header-resume{
+  margin-bottom: 40px;
+}
 .rows-services{
   margin: 20px 130px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.experience-cards:nth-child(1){
+  border-left: 4px solid var(--accent-color);
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 20px;
+
+}
+.experience-cards:nth-child(2){
+  border-left: 4px solid var(--accent-color);
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.experience-cards:nth-child(3){
+  border-left: 4px solid var(--accent-color);
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

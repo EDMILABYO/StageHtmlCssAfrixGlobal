@@ -74,18 +74,41 @@
     border-radius: 20px;
     font-size: 20px;
 }
-.conctact-gauche h1, h2, h3, h4{
-    color: var(--contrast-color);
-}
+
 .conctact-gauche p{
     color: #d2d9da;
     font-size: 15px;
 }
+.conctact-gauche h3{
+    color: rgb(255, 255, 255);
+}
+.conctact-gauche h4 {
+    color: rgb(255, 255, 255);
+}
+
 
 .info-contact-section{
     display: flex;
     
 }
 .icon-contact-description{
-    color: #d2d9da;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.container-input{
+    display: block;
+}
+.input-bottom{
+    display: block;
+}
+.inputs-bottom{
+    display: block;
+}
+.input-bottom input{
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }

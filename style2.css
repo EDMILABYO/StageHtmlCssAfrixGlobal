@@ -19,6 +19,10 @@
     color:var(--accent-color) ;
     font-weight: 650;
 }
+.contact{
+    background-color: #eff2f4;
+    padding: 10px;
+}
 .service-item a{
     color: var(--accent-color);
     font-weight: 600;
@@ -68,7 +72,7 @@
 .conctact-gauche{
     flex: 1px;
     background-color: var(--accent-color);
-    margin-right: 30px;
+    margin-right: 40px;
     padding: 40px;
     color: var(--contrast-color);
     border-radius: 20px;
@@ -94,6 +98,8 @@
 .icon-contact-description{
     padding: 5px;
     border-radius: 50%;
+    filter: brightness(0) invert(100%);
+    font-size: 20px;
     
 }
 .container-input{
@@ -101,6 +107,7 @@
 }
 .input-bottom{
     display: block;
+    text-align: center;
 }
 .inputs-bottom{
     display: block;
@@ -111,4 +118,106 @@
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
+    width: 690px;
+    outline: none;
+    border: 1px solid rgb(194, 194, 198);
+}
+.input-bottom input::placeholder{
+    font-size: 15px;
+    padding: 15px;
+}
+.input-bottom textarea{
+    width: 680px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 198);
+    outline: none;
+}
+.input-bottom textarea{
+    font-size: 15px;
+    padding: 15px;
+}
+.input-top input:nth-child(1){
+  font-size: 25px;
+  width: 331px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 194, 198);
+  margin-bottom: 15px;
+  margin-right: 5px;
+  justify-content: space-between;
+  outline: none;
+}
+.input-top input:nth-child(2){
+  font-size: 25px;
+  width: 331px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 194, 198);
+  outline: none;
+  
+  justify-content: space-between;
+}
+.input-top input::placeholder{
+    font-size: 15px;
+    padding: 15px;
+}
+.conctact-droit{
+    background-color: var(--surface-color);
+    padding: 65px;
+    border-radius: 20px;
+}
+.conctact-droit h3{
+    font-size: 35px;
+    font-weight: 300;
+}
+.input-bottom button{
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    color: var(--surface-color);
+    border: none;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background-color: var(--accent-color);
+    padding: 40px;
+    color: var(--card-bg);
+    
+}
+.Container-footer{
+    opacity: 0.8;
+}
+.icon-footer{
+    filter: brightness(0) invert(100%);
+} 
+.icon-footer a{
+    
+    margin: 5px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid var(--contrast-color);
+    padding: 8px;
+    border-radius: 50%;
+}
+footer p:nth-child(1){
+    margin-bottom: 40px;
+}
+.container-icon-about-droit{
+    display: flex;
+    gap: 15px;
+}
+.icon-about-droit img{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    fill: #d2d9da;
+}
+.stat-infoAbout{
+    display: block;
+   
 }

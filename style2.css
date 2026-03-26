@@ -47,11 +47,13 @@
     padding: 15px;
 }
 .images-portfolio img{
-    width: 380px;
+    width: 340px;
     border-radius: 20px;
     margin: 1rem;
 }
 .images-portfolio{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin: 10px;
     text-align: center;
 }
@@ -211,13 +213,101 @@ footer p:nth-child(1){
     display: flex;
     gap: 15px;
 }
-.icon-about-droit img{
-    padding: 15px;
-    border-radius: 50%;
+.icon-about-droit{
     background-color: var(--accent-color);
-    fill: #d2d9da;
+    width: 45px; 
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
 }
+.icon-about-droit img{
+    filter: brightness(0) invert(100%);
+    padding: 15px;
+    width: 20px; 
+    height: auto;
+}
+
 .stat-infoAbout{
-    display: block;
+    display: grid;
    
+}
+
+.description-resumeDroit{
+    position: relative;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+.description-resumeDroit::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #3498db;
+}
+.experience-cardsDroit{
+    border: 1px solid #e0e0e0;
+    position: relative;
+    margin-bottom: 30px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); */
+    border-radius: 10px;
+    padding: 15px;
+}
+.experience-cardsDroit:hover{
+    border: 1px solid #e0e0e0;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.experience-cardsDroit::before{
+    content: '';
+    position: absolute;
+    left: -44px; 
+    top: 15px;   
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 50%; 
+    z-index: 1;
+}
+.description-resume{
+    margin-top: 50px;
+}
+
+.service-itemTestimonials{
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(248, 249, 251);
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+
+.service-itemTestimonials .icon{
+    filter: invert(56%) sepia(91%) saturate(2758%) hue-rotate(3deg) brightness(103%) contrast(106%);
+    
+}
+.numberAbout{
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.skill-cardAbout img{
+    
+    filter: invert(36%) sepia(87%) saturate(2224%) hue-rotate(202deg) brightness(96%) contrast(93%);
+    width: 40px;
+    padding: 10px;
+}
+.SectionIcons{
+    background-color: #d5eafa;
+    width: 60px;
+    border-radius: 20px;
 }

@@ -248,6 +248,11 @@ footer p:nth-child(1){
     width: 2px;
     height: 100%;
     background-color: #3498db;
+    background: linear-gradient(to bottom,
+                #1a56db 0%,
+                #1a56db 70%,
+                transparent 100%
+            );
 }
 .experience-cardsDroit{
     border: 1px solid #e0e0e0;
@@ -287,6 +292,17 @@ footer p:nth-child(1){
     background-color: rgb(248, 249, 251);
     border-radius: 10px;
     padding: 40px;
+    position: relative;
+    
+}
+.quote{
+    position: absolute;
+    font-size: 80px;
+    top: -35px;
+    color: #97c4fc;
+}
+#border-stars-testimonials{
+    border-top: 3px solid var(--accent-color);
     
 }
 

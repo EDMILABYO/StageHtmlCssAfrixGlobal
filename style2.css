@@ -19,6 +19,14 @@
     color:var(--accent-color) ;
     font-weight: 650;
 }
+.durationDroit{
+    background-color: var(--accent-color);
+    padding: 5px;
+    border-radius: 5px;
+    color:var(--card-bg) ;
+    font-weight: 650;
+}
+
 .contact{
     background-color: #eff2f4;
     padding: 10px;
@@ -55,8 +63,13 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 10px;
+
     text-align: center;
 }
+
+
+
+
 .FrequentlyAskedQuestions{
     margin: 100px;
 }
@@ -295,6 +308,23 @@ footer p:nth-child(1){
     position: relative;
     
 }
+
+.service-itemTestimonialsL{
+    grid-column: 2; 
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(248, 249, 251);
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+    
+}
+.service-itemTestimonialsL p{
+    text-align: center;
+}
+
+
+
 .quote{
     position: absolute;
     font-size: 80px;
@@ -306,10 +336,24 @@ footer p:nth-child(1){
     
 }
 
+
+#border-stars-testimonialsL h3{
+   text-align: center;
+   font-size: 60px;
+    
+}
+
+
 .service-itemTestimonials .icon{
     filter: invert(56%) sepia(91%) saturate(2758%) hue-rotate(3deg) brightness(103%) contrast(106%);
     
 }
+
+.service-itemTestimonialsL .icon{
+    filter: invert(56%) sepia(91%) saturate(2758%) hue-rotate(3deg) brightness(103%) contrast(106%);
+    text-align: center;
+}
+
 .numberAbout{
     color: var(--accent-color);
     font-size: 20px;
@@ -326,4 +370,8 @@ footer p:nth-child(1){
     background-color: #d5eafa;
     width: 60px;
     border-radius: 20px;
+}
+
+.role-info h2{
+    font-size: 20px;
 }
